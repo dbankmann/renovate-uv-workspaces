@@ -1,0 +1,23 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended"
+  ],
+  "ignoreDeps": [
+    "python"
+  ],
+  "enabledManagers": [
+    "pep621"
+  ],
+  "labels": [
+    "renovate"
+  ],
+  "timezone": "Europe/Berlin",
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": [
+      "* 8-17 * * 1-5"
+    ]
+  }
+}
+
